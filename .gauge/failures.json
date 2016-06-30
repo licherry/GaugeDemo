@@ -1,0 +1,8 @@
+{
+	"Flags": {
+		"-dir": "/Users/chenli/Documents/Projects/GaugeDemo"
+	},
+	"FailedItems": [
+		"specs/SignUp.spec:11"
+	]
+}
