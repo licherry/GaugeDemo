@@ -66,4 +66,7 @@ public class SignUpSteps extends DriverFactory {
         boolean signOutLinkDisplayed = signOutLink.isDisplayed();
         Assert.assertTrue(signOutLinkDisplayed);
     }
+
+
 }
+

@@ -3952,3 +3952,99 @@ com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
 13:24:23.972 Scenarios:	1 executed	0 passed	1 failed	1 skipped
 13:24:23.972 
 Total time taken: 11.865s
+13:59:12.352 Checking updates...
+13:59:12.607 # Sign Up
+13:59:12.607 
+     |firstName|lastName|email        |password|
+     |---------|--------|-------------|--------|
+     |janet    |li      |abc1@abc1.com|11111111|
+13:59:12.607 ## Sign up a new user with datatable
+13:59:12.608 * Go to landing page
+13:59:21.812 * Access to sign up page
+
+13:59:22.589 * Input first name <firstName>
+13:59:22.631 * Input last name <lastName>
+13:59:22.671 * Input email <email>
+13:59:22.727 * Input password <password>
+13:59:22.771 * Input the confirm password <password>
+13:59:22.813 * Click Sign up button
+13:59:26.073 * Access to application successfully
+
+13:59:26.093 * Log out
+13:59:27.266 
+     |firstName|lastName|email        |password|
+     |---------|--------|-------------|--------|
+     |mike     |wang    |abc1@abc2.com|11111111|
+13:59:27.266 ## Sign up a new user with datatable
+13:59:27.266 * Go to landing page
+13:59:34.173 * Access to sign up page
+
+13:59:34.706 * Input first name <firstName>
+13:59:34.738 * Input last name <lastName>
+13:59:34.783 * Input email <email>
+13:59:34.833 * Input password <password>
+13:59:34.881 * Input the confirm password <password>
+13:59:34.933 * Click Sign up button
+13:59:38.053 * Access to application successfully
+
+13:59:38.071 * Log out
+13:59:39.329 Plugin [Html Report] with pid [3606] has exited
+13:59:39.329 Specifications:	1 executed	1 passed	0 failed	0 skipped
+13:59:39.329 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+13:59:39.329 
+Total time taken: 26.63s
+14:17:23.776 [ParseWarning] /Users/chenli/Documents/Projects/GaugeDemo/specs/SignUp.spec:50 Dynamic param <firsfirstName> could not be resolved, Treating it as static param
+14:17:25.062 [ValidationError] /Users/chenli/Documents/Projects/GaugeDemo/specs/SignUp.spec:47: Step implementation not found => 'Sign up the following users <table>'
+14:17:25.177 Plugin [Html Report] with pid [3704] has exited
+14:17:25.177 Specifications:	0 executed	0 passed	0 failed	1 skipped
+14:17:25.177 Scenarios:	0 executed	0 passed	0 failed	1 skipped
+14:17:25.177 
+Total time taken: 12ms
+14:20:43.360 [ParseWarning] /Users/chenli/Documents/Projects/GaugeDemo/specs/SignUp.spec:50 Dynamic param <firsfirstName> could not be resolved, Treating it as static param
+14:20:44.628 [ValidationError] /Users/chenli/Documents/Projects/GaugeDemo/specs/SignUp.spec:47: Step implementation not found => 'Sign up the following users <table>'
+14:20:44.742 Plugin [Html Report] with pid [3786] has exited
+14:20:44.742 Specifications:	0 executed	0 passed	0 failed	1 skipped
+14:20:44.742 Scenarios:	0 executed	0 passed	0 failed	1 skipped
+14:20:44.742 
+Total time taken: 11ms
+14:26:23.908 # Sign Up
+14:26:23.909 
+     |firstName|lastName|email         |password|
+     |---------|--------|--------------|--------|
+     |janet    |li      |abc1@abc77.com|11111111|
+14:26:23.909 ## Sign up new users with datatable
+14:26:23.909 * Go to landing page
+14:26:24.059 Checking updates...
+14:26:31.102 * Access to sign up page
+
+14:26:31.655 * Input first name <firstName>
+14:26:31.698 * Input last name <lastName>
+14:26:31.743 * Input email <email>
+14:26:31.796 * Input password <password>
+14:26:31.845 * Input the confirm password <password>
+14:26:31.884 * Click Sign up button
+14:26:37.776 * Access to application successfully
+
+14:26:37.792 * Log out
+14:26:38.964 
+     |firstName|lastName|email         |password |
+     |---------|--------|--------------|---------|
+     |mike     |wang    |abc1@abc44.com|11111111||
+14:26:38.964 ## Sign up new users with datatable
+14:26:38.964 * Go to landing page
+14:26:45.790 * Access to sign up page
+
+14:26:46.308 * Input first name <firstName>
+14:26:46.344 * Input last name <lastName>
+14:26:46.381 * Input email <email>
+14:26:46.429 * Input password <password>
+14:26:46.475 * Input the confirm password <password>
+14:26:46.528 * Click Sign up button
+14:26:52.544 * Access to application successfully
+
+14:26:52.561 * Log out
+14:26:53.739 Plugin [Html Report] with pid [3841] has exited
+14:26:53.739 Specifications:	1 executed	1 passed	0 failed	0 skipped
+14:26:53.739 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+14:26:53.739 
+Total time taken: 29.739s

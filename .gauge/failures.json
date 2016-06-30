@@ -1,8 +1,7 @@
 {
 	"Flags": {
-		"-dir": "/Users/chenli/Documents/Projects/GaugeDemo"
+		"-dir": "/Users/chenli/Documents/Projects/GaugeDemo",
+		"-tags": "datatable"
 	},
-	"FailedItems": [
-		"specs/SignUp.spec:11"
-	]
+	"FailedItems": []
 }
